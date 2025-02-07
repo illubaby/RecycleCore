@@ -1,0 +1,3 @@
+torchvision
+matplotlib
+scikit-learn
