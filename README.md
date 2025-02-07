@@ -1,0 +1,2 @@
+# RecycleCore
+For CNN accelerator
