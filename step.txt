@@ -1,7 +1,0 @@
-Module Fusion: Stop after all supported layer sequences are fused.
-QConfig Assignment: Stop when the model’s qconfig is set appropriately.
-Preparation: Stop after observers are inserted.
-Calibration: Stop once enough representative data has been run through the model to capture robust activation statistics.
-Conversion: Stop after successfully converting the model to its quantized version.
-Validation: Stop the process if the quantized model’s accuracy and performance are acceptable for your application.
-Export: Stop when the model is exported and ready for the FPGA-specific toolchain.

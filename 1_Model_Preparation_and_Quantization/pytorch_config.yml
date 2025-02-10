@@ -1,0 +1,14 @@
+ClockPeriod: 5
+HLSConfig:
+  Model:
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 1
+IOType: io_parallel
+InputShape: !!python/tuple
+- 1
+- 28
+- 28
+OutputDir: my-hls-project
+Part: xc7vx690tffg1927-2
+ProjectName: simple_mlp_project
+PytorchModel: simple_mlp.pt
